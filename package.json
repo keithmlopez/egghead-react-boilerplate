@@ -1,9 +1,10 @@
 {
   "name": "egghead-react-boilerplate",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Modern tooling with Javascript course repo.",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/keithmlopez/egghead-react-boilerplate/issues"
   },
-  "homepage": "https://github.com/keithmlopez/egghead-react-boilerplate#readme"
+  "homepage": "https://github.com/keithmlopez/egghead-react-boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6"
+  }
 }
